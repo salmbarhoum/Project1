@@ -1,0 +1,125 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1b2c41;
+    overflow: hidden;
+  }
+
+
+
+  .logo{
+    width: 80px;
+    background-color: rgb(170, 196, 235);
+  }
+  .header{
+    background-color: #1b2c41;
+    opacity: 0.95;
+    box-shadow: 0px 2px 10px 0.5px rgb(207, 231, 255);
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    height: 80px;
+    margin-bottom: 3px;
+    
+  }
+  .header1{
+    background-color: #1b2c41;
+    opacity: 0.95;
+    box-shadow: 0px 2px 10px 0.5px rgb(207, 231, 255);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    height: 80px;
+    margin-bottom: 3px;
+  }
+  .he{
+    display: flex;
+  }
+  .cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .aca{
+    font-size: 25px;
+    color: rgb(207, 231, 255);
+  }
+  
+  h1 {
+    color: rgb(207, 231, 255);
+    margin: 0;
+    padding: 18px;
+    font-size: 2em;
+    line-height: 1.1;
+  }
+  
+  h1 span{
+    color:#689bd9;
+  }
+  
+
+
+  
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media  screen and (max-width: 767px){
+  .mi{
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slideshow {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible;
+    z-index: 1;
+  }
+  .slideshow img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+}
+
+
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+  .mi{
+    flex-wrap: wrap-reverse; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slideshow {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible;
+    z-index: 1;
+  }
+  .slideshow img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+
+}
+

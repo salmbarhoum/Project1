@@ -1,0 +1,44 @@
+.terms-all{
+    background-image: url('./imgHome.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    opacity: 0.85;
+    overflow: auto;
+}
+
+.terms-all::-webkit-scrollbar{
+    display: none;
+}
+.T-P-C{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.Terms{
+    width: 75%;
+    background-color: rgb(16, 49, 79);
+    opacity: 0.9;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 100px;
+    padding: 20px;
+    padding-left: 40px;
+    box-shadow: 5px 0px 30px 1px rgb(207, 231, 255);
+}
+
+
+.TPC{
+    color: #689bd9;
+    font-size: 30px;
+}
+.pa{
+    color: rgb(174, 208, 240);
+    font-size: larger;
+}
+
